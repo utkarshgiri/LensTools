@@ -589,7 +589,7 @@ class Gadget2Snapshot(NbodySnapshot):
 	###########################Extra methods####################################################
 	############################################################################################
 
-	def setHeaderInfo(self,Om0=0.26,Ode0=0.74,w0=-1.0,wa=0.0,h=0.72,redshift=100.0,box_size=15.0*u.Mpc/0.72,flag_cooling=0,flag_sfr=0,flag_feedback=0,flag_stellarage=0,flag_metals=0,flag_entropy_instead_u=0,masses=np.array([0,1.03e10,0,0,0,0])*u.Msun,num_particles_file_of_type=None,npartTotalHighWord=np.zeros(6,dtype=np.uint32)):
+	def setHeaderInfo(self,Om0=0.26,Ode0=0.74,w0=-1.0,wa=0.0,h=0.72,redshift=100.0,box_size=15.0*u.Mpc/0.72,flag_cooling=0,flag_sfr=0,flag_feedback=0,flag_stellarage=0,flag_metals=0,flag_entropy_instead_u=0,masses=np.array([0,1.03e10,0,0,0,0])*u.Msun,num_particles_file_of_type=None,npartTotalHighWord=np.zeros(6,dtype=np.uint32), **kwargs):
 
 		"""
 		Sets the header info in the snapshot to write
