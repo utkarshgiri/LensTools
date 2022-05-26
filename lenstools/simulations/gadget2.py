@@ -218,7 +218,8 @@ class Gadget2Header(dict):
 	def __repr__(self):
 
 		keys = self.keys()
-		keys.sort()
+		#keys.sort()
+        ##sorted(keys)
 		
 		return "\n".join([ "{0} : {1}".format(key,self[key]) for key in keys ]) 
 
