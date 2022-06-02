@@ -12,7 +12,7 @@ except ImportError:
 	MPI=None
 	default_op=None
 	wmsg = "Could not import mpi4py! (if you set sys.modules['mpi4py']=None please disregard this message)"
-	warnings.warn(wmsg)
+	#warnings.warn(wmsg)
 
 from emcee.utils import MPIPool
 import numpy as np
